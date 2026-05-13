@@ -10,8 +10,8 @@
   --muted: #6b7390;
   --border: rgba(255,255,255,0.07);
   --card: rgba(255,255,255,0.03);
-  --font-display: 'Syne', sans-serif;
-  --font-mono: 'DM Mono', monospace;
+  --font-display: 'Space Grotesk', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
 }
 
 html { scroll-behavior: smooth; }
@@ -123,9 +123,9 @@ nav {
 
 h1 {
   font-size: clamp(3rem, 8vw, 7rem);
-  font-weight: 800;
-  line-height: 0.95;
-  letter-spacing: -0.03em;
+  font-weight: 700;
+  line-height: 0.93;
+  letter-spacing: -0.04em;
   margin-bottom: 1.5rem;
 }
 
@@ -221,8 +221,8 @@ section { padding: 6rem 4rem; position: relative; z-index: 1; }
 
 .section-title {
   font-size: clamp(2rem, 4vw, 3rem);
-  font-weight: 800;
-  letter-spacing: -0.02em;
+  font-weight: 700;
+  letter-spacing: -0.03em;
   margin-bottom: 3rem;
 }
 
@@ -262,7 +262,7 @@ section { padding: 6rem 4rem; position: relative; z-index: 1; }
 
 .stat-num {
   font-size: 2.5rem;
-  font-weight: 800;
+  font-weight: 700;
   color: var(--accent);
   line-height: 1;
   margin-bottom: 0.25rem;
